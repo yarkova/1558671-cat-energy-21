@@ -21,7 +21,7 @@
               <a href="#"> Каталог продукции</a>
             </li>
             <li class="site-list__item">
-              <a href="#"> Подбор программы</a>
+              <a href="form.html"> Подбор программы</a>
             </li>
         </ul>
         </div>
@@ -35,58 +35,59 @@
      </section>
 
      <section class="questionnaire">
-     <div class="questionnaire-form">
+     <form class="questionnaire-form" action="https://echo.htmlacademy.ru" method="post">
        <div class="personal-data">
          <ul class="personal-data__list">
            <li class="personal-data__item">
-              <label  for="name">Имя:*</label>
-              <input type="text" name="name" id="name" placeholder="Барсик">
+              <label class="personal-data__label" for="name">Имя:*</label>
+              <input class="personal-data__field" type="text" name="name" id="name" placeholder="Барсик">
            </li>
 
            <li class="personal-data__item">
-             <label  for="weight">Вес(кг):*</label>
-             <input type="text" name="weight" id="weight" placeholder="7">
+             <label class="personal-data__label" for="weight">Вес(кг):*</label>
+             <input class="personal-data__field" type="text" name="weight" id="weight" placeholder="7">
            </li>
 
            <li class="personal-data__item">
-             <label  for="age">Возраст(лет):*</label>
-             <input type="text" name="age" id="age" placeholder="7">
+             <label class="personal-data__label" for="age">Возраст(лет):*</label>
+             <input class="personal-data__field" type="text" name="age" id="age" placeholder="7">
            </li>
          </ul>
        </div>
 
      <div class="choose-program">
-       <ul class="choose-program">
-         <li class="choose-program__list">
-          <input type="radio" value="slimming" name="programm" id="slimming" checked>
-          <label for="slimming">Похудение</label>
+       <ul class="choose-program__list">
+         <li class="choose-program__item">
+          <input  class="choose-program__radio" type="radio" value="slimming" name="programm" id="slimming" checked>
+          <label  class="choose-program__label" for="slimming">Похудение</label>
          </li>
 
-         <li class="choose-program__list">
-          <input type="radio" value="weight-gain" name="programm" id="weight-gain">
-          <label for="weight-gain">Набор массы</label>
+         <li class="choose-program__item">
+          <input class="choose-program__radio" type="radio" value="weight-gain" name="programm" id="weight-gain">
+          <label class="choose-program__label" for="weight-gain">Набор массы</label>
          </li>
 
-         <li class="choose-program__list">
-          <input type="radio" value="advice" name="programm" id="advice">
-          <label for="advice">Не знаю (нужен ваш совет)</label>
+         <li class="choose-program__item">
+          <input class="choose-program__radio" type="radio" value="advice" name="programm" id="advice">
+          <label class="choose-program__label" for="advice">Не знаю (нужен ваш совет)</label>
          </li>
        </ul>
      </div>
-     </div>
+
 
   <div class="contact-details">
     <h2 class="contact-details__title">Контактные данные (владельца кота)</h2>
       <div>
        <ul class="contact-details__list">
-         <li>
-           <label  for="e-mail">E-MAIL:*</label>
-           <input type="text" name="e-mail" id="e-mail" placeholder="kuklachev@gmail.com">
+
+         <li class="contact-details__item">
+           <label class="contact-details__label" for="e-mail">E-MAIL:*</label>
+           <input class="contact-details__input" type="text" name="e-mail" id="e-mail" placeholder="kuklachev@gmail.com">
          </li>
 
-         <li>
-           <label  for="phone">ТЕЛЕФОН:*</label>
-           <input type="text" name="phone" id="phone" placeholder="8 (960) 900-60-90">
+         <li class="contact-details__item">
+           <label class="contact-details__label" for="phone">ТЕЛЕФОН:*</label>
+           <input class="contact-details__input" type="text" name="phone" id="phone" placeholder="8 (960) 900-60-90">
          </li>
 
        </ul>
@@ -95,37 +96,37 @@
 
   <div class="comments">
     <h2 class="comments__title">Комментарий</h2>
-    <textarea name="leaveСomment" id="leaveСomment" rows="10" cols="50" placeholder="Расскажите обо всех повадках кота"></textarea>
+    <textarea class="comments__textarea" name="leaveСomment" id="leaveСomment" rows="10" cols="50" placeholder="Расскажите обо всех повадках кота"></textarea>
   </div>
 
   <div class="additionally">
    <h2 class="additionally__title">Дополнительно</h2>
      <ul class="additionally__list">
        <li class="additionally__item">
-         <input type="checkbox" name="sweetener" id="sweetener" checked>
-         <label for="sweetener">САХАРОЗАМЕНИТЕЛЬ</label>
+         <input class="additionally__checkbox" type="checkbox" name="sweetener" id="sweetener" checked>
+         <label class="additionally__label" for="sweetener">САХАРОЗАМЕНИТЕЛЬ</label>
        </li>
 
        <li class="additionally__item">
-         <input type="checkbox" name="water" id="water">
-         <label for="water">ПИТЬЕВАЯ ВОДА</label>
+         <input class="additionally__checkbox" type="checkbox" name="water" id="water">
+         <label class="additionally__label" for="water">ПИТЬЕВАЯ ВОДА</label>
        </li>
 
        <li class="additionally__item">
-         <input type="checkbox" name="milk" id="milk">
-         <label for="milk">МОЛОКО</label>
+         <input class="additionally__checkbox" type="checkbox" name="milk" id="milk">
+         <label class="additionally__label" for="milk">МОЛОКО</label>
        </li>
 
        <li class="additionally__item">
-         <input type="checkbox" name="vitamins" id="vitamins">
-         <label for="vitamins">ВИТАМИНЫ</label>
+         <input class="additionally__checkbox" type="checkbox" name="vitamins" id="vitamins">
+         <label class="additionally__label" for="vitamins">ВИТАМИНЫ</label>
        </li>
      </ul>
      <button type="submit">Отправить заявку</button>
      <p> * — Обязательные поля</p>
   </div>
+  </form>
      </section>
-
     </main>
 
     <footer class="page-footer">
