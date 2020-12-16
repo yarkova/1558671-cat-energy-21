@@ -1,1 +1,26 @@
-// Начните писать стили здесь
+@import "blocks/page.scss";
+@import "blocks/main-nav.scss";
+@import "blocks/page-main.scss";
+@import "blocks/status.scss";
+@import "blocks/status__header.scss";
+@import "blocks/status__slogan.scss";
+@import "blocks/status__intro.scss";
+@import "blocks/program.scss";
+@import "blocks/losing-weigh.scss";
+@import "blocks/weight-gain.scss";
+@import "blocks/advantages.scss";
+@import "blocks/advantages__wrapper.scss";
+@import "blocks/advantages__item--leaf.scss";
+@import "blocks/advantages__item--powder.scss";
+@import "blocks/advantages__item--food.scss";
+@import "blocks/advantages__item--clock.scss";
+@import "blocks/example.scss";
+@import "blocks/example__item.scss";
+@import "blocks/example__wrapper.scss";
+@import "blocks/example__description.scss";
+@import "blocks/example__number.scss";
+@import "blocks/page-footer.scss";
+@import "blocks/contacts__title.scss";
+@import "blocks/contacts__text.scss";
+@import "blocks/social__list.scss";
+@import "blocks/page-footer__copyright";
