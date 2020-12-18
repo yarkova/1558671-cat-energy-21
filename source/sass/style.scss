@@ -1,3 +1,5 @@
+@import "global/body.scss";
+
 @import "blocks/page__header.scss";
 @import "blocks/main-nav.scss";
 @import "blocks/page-main.scss";
@@ -6,12 +8,9 @@
 @import "blocks/losing-weigh.scss";
 @import "blocks/weight-gain.scss";
 @import "blocks/advantages.scss";
-@import "blocks/advantages__wrapper.scss";
 @import "blocks/example.scss";
-@import "blocks/example__wrapper.scss";
-@import "blocks/example__results.scss";
-@import "blocks/example__item.scss";
+@import "blocks/slider.scss";
 @import "blocks/page-footer.scss";
-@import "blocks/page-footer__contacts.scss";
-@import "blocks/page-footer__social.scss";
-@import "blocks/page-footer__copyright";
+@import "blocks/contacts.scss";
+@import "blocks/social.scss";
+@import "blocks/copyright";
