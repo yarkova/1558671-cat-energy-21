@@ -1,5 +1,16 @@
-$fancy-color:  #F2F2F2;
-$special_dark-grey: #444444;
 .program {
-padding: 10px;
+  padding: 10px;
+}
+
+.program-block__slogan {
+  font-family: "Oswald";
+  font-size: 24px;
+  line-height: 37px;
+}
+
+.program-block__intro {
+  font-family: "Arial";
+  font-size: 14px;
+  color: $special_dark-grey;
+  line-height: 18px;
 }

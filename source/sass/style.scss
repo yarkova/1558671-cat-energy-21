@@ -1,12 +1,12 @@
 @import "global/body.scss";
-
+@import "global/variables.scss";
 @import "blocks/page__header.scss";
 @import "blocks/main-nav.scss";
 @import "blocks/page-main.scss";
 @import "blocks/status.scss";
 @import "blocks/program.scss";
-@import "blocks/losing-weigh.scss";
-@import "blocks/weight-gain.scss";
+@import "blocks/program-block1.scss";
+@import "blocks/program-block2.scss";
 @import "blocks/advantages.scss";
 @import "blocks/example.scss";
 @import "blocks/slider.scss";
@@ -14,3 +14,10 @@
 @import "blocks/contacts.scss";
 @import "blocks/social.scss";
 @import "blocks/copyright";
+@import "blocks/page-form.scss";
+@import "blocks/questionnaire.scss";
+@import "blocks/personal-data.scss";
+@import "blocks/choose-program.scss";
+@import "blocks/contact-details.scss";
+@import "blocks/comments.scss";
+@import "blocks/additionally.scss";

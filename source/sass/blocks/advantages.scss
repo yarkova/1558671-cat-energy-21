@@ -1,5 +1,4 @@
 .advantages {
-  background-color: #ffffff;
   border:  solid;
   width: 280px;
   height: auto;
@@ -11,25 +10,25 @@
 .advantages__list {
   font-family: "Arial";
   font-size: 14px;
-  color: #444444;
+  color: $special_dark-grey;
 }
 .advantages__item--leaf {
-  border:  solid;
+  border: solid;
   width: 176px;
   height: auto;
 }
 .advantages__item--powder {
-  border:  solid;
+  border: solid;
   width: 176px;
   height: auto;
 }
 .advantages__item--food{
-  border:  solid;
+  border: solid;
   width: 176px;
   height: auto;
 }
 .advantages__item--clock{
-  border:  solid;
+  border: solid;
   width: 176px;
   height: auto;
 }

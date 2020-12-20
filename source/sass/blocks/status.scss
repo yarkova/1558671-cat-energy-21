@@ -1,22 +1,25 @@
 .status {
-  background-image: url('../img/index-background-desktop 2 (1).png');
+  background-image: url("../img/index-background-desktop 2 (1).png");
   background-repeat: no-repeat;
-  border:  solid;
+  border: solid;
   width: 280px;
   height: auto;
 }
+
 .status__header-toggle {
   font-family: "Oswald";
   font-size: 14px;
 }
+
 .status__intro {
-font-family: "Oswald";
-font-size: 36px;
-color: #FFFFFF;
-line-height: 36px;
+  font-family: "Oswald";
+  font-size: 36px;
+  color: $basic-white;
+  line-height: 36px;
 }
-.status__slogan{
+
+.status__slogan {
   font-family: "Oswald";
   font-size: 14px;
-  color: #FFFFFF;
+  color: $basic-white;
 }
