@@ -4,6 +4,7 @@
   width: 280px;
   height: auto;
 }
+
 .example__title {
   font-family: "Oswald";
   font-size: 36px;
@@ -11,6 +12,7 @@
   width: auto;
   height: auto;
 }
+
 .example__cost {
   font-family: "Oswald";
   font-size: 14px;
@@ -19,8 +21,9 @@
   width: auto;
   height: auto;
 }
+
 .example__description {
-  font-family: "Arial";
+  font-family: "Arial", sans-serif;
   font-size: 14px;
   color: $special_dark-grey;
   line-height: 18px;
@@ -28,18 +31,22 @@
   width: 280px;
   height: auto;
 }
+
 .example__item {
+  font-family: "Oswald";
   border: solid;
   width: 280px;
   height: auto;
 }
+
 .example__number {
   font-family: "Oswald";
   font-size: 24px;
   color: $black;
 }
+
 .example__description-item {
-  font-family: "Arial";
+  font-family: "Arial", sans-serif;
   font-size: 12px;
   line-height: 12px;
   color: $special_dark-grey;

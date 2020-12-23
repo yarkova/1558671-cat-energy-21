@@ -4,22 +4,39 @@
   border: solid;
   width: 280px;
   height: auto;
+  position: relative;
+}
+
+.status::after {
+  background-color: rgba(104, 183, 56, 0.85);
+  content: "";
+  width: 100%;
+  height: 302px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .status__header-toggle {
-  font-family: "Oswald";
   font-size: 14px;
 }
 
 .status__intro {
-  font-family: "Oswald";
   font-size: 36px;
   color: $basic-white;
   line-height: 36px;
+  position: relative;
+  z-index: 1;
 }
 
 .status__slogan {
-  font-family: "Oswald";
   font-size: 14px;
   color: $basic-white;
+  position: relative;
+  z-index: 1;
+}
+
+.status__img {
+  position: relative;
+  z-index: 1;
 }

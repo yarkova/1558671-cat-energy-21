@@ -1,33 +1,39 @@
 .advantages {
-  border:  solid;
+  border: solid;
   width: 280px;
   height: auto;
 }
+
 .advantages__title {
   font-family: "Oswald";
   font-size: 36px;
 }
+
 .advantages__list {
   font-family: "Arial";
   font-size: 14px;
   color: $special_dark-grey;
 }
+
 .advantages__item--leaf {
   border: solid;
   width: 176px;
   height: auto;
 }
+
 .advantages__item--powder {
   border: solid;
   width: 176px;
   height: auto;
 }
-.advantages__item--food{
+
+.advantages__item--food {
   border: solid;
   width: 176px;
   height: auto;
 }
-.advantages__item--clock{
+
+.advantages__item--clock {
   border: solid;
   width: 176px;
   height: auto;

@@ -1,0 +1,22 @@
+.program-block {
+  background-color: $special_grey-3;
+  border: solid;
+  width: 280px;
+  height: auto;
+}
+
+.program-block a {
+  font-size: 16px;
+}
+
+.program-block__slogan {
+  font-size: 24px;
+  line-height: 37px;
+}
+
+.program-block__intro {
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  color: $special_dark-grey;
+  line-height: 18px;
+}
