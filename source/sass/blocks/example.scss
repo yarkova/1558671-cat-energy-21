@@ -6,7 +6,7 @@
 }
 
 .example__title {
-  font-family: "Oswald";
+  font-family: "Oswald", sans-serif;
   font-size: 36px;
   border: solid;
   width: auto;
@@ -14,7 +14,7 @@
 }
 
 .example__cost {
-  font-family: "Oswald";
+  font-family: "Oswald", sans-serif;
   font-size: 14px;
   color: $black;
   border: solid;
@@ -33,14 +33,14 @@
 }
 
 .example__item {
-  font-family: "Oswald";
+  font-family: "Oswald", sans-serif;
   border: solid;
   width: 280px;
   height: auto;
 }
 
 .example__number {
-  font-family: "Oswald";
+  font-family: "Oswald", sans-serif;
   font-size: 24px;
   color: $black;
 }

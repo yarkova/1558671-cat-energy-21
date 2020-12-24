@@ -1,0 +1,33 @@
+.product__title {
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.product__feature {
+  border: 1px solid black;
+}
+
+.product__feature-name {
+  font-family: "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.product__feature-value {
+  font-family: "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.product__feature-order {
+  border: solid;
+  width: 280px;
+  height: 40px;
+  background-color: $basic_green;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: $basic-white;
+}
