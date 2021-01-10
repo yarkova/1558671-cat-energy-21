@@ -2,6 +2,7 @@
 <html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>HTML Academy: Кэт энерджи</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -75,7 +76,7 @@
           </li>
         </ul>
       </div>
-
+ </form>
 
   <div class="contact-details">
     <h2 class="contact-details__title">Контактные данные (владельца кота)</h2>
@@ -124,25 +125,29 @@
           <label class="additionally__label" for="vitamins">ВИТАМИНЫ</label>
         </li>
       </ul>
+      <div class="additionally__submit">
       <button class="additionally__button button" type="submit">Отправить заявку</button>
       <p class="additionally__required"> * — Обязательные поля</p>
+    </div>
   </div>
-  </form>
+
       </section>
     </main>
 
     <footer class="page-footer">
-      <div class="page-footer__wrapper">
+
         <div class="page-footer__contacts contacts">
           <b class="contacts__title">приглашаем к сотрудничеству дилеров!</b>
           <p class="contacts__text">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
-          <img src="img/location.png" width="320" height="362" alt="локация">
+
         </div>
-
-
+        <div class="page-footer__map">
+        <img src="img/location.png"  width="320" height="362" alt="локация">
+      </div>
         <div class="page-footer__social social">
+          <div class="page-footer__logo">
           <img src="img/logo 2.png" width="101" height="18" alt="кот-энерджи">
-
+        </div>
           <ul class="social__list">
             <li class="social__item">
               <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
@@ -155,14 +160,15 @@
             </li>
 
           </ul>
-        </div>
+
 
 
         <div class="page-footer__copyright copyright">
           <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
         </div>
-      </div>
+    </div>
     </footer>
+
 
 
       </body>

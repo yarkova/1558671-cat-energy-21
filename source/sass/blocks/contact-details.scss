@@ -1,10 +1,10 @@
 .contact-details {
-  border: solid;
   width: 400px;
   height: auto;
 }
 
 .contact-details__title {
+  width: 230px;
   font-family: "Oswald", sans-serif;
   font-size: 24px;
   line-height: 26px;
@@ -14,4 +14,49 @@
   font-family: "Oswald", sans-serif;
   font-size: 16px;
   line-height: 28px;
+  list-style: none;
+}
+
+.contact-details__item {
+  display: flex;
+  margin-bottom: 14px;
+}
+
+.contact-details__label {
+  flex-shrink: 0;
+}
+
+.contact-details__input {
+  border: 1px solid #CDCDCD;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+@media (min-width: $tablet-width) {
+  .contact-details {
+    width: 630px;
+    height: auto;
+  }
+
+ .contact-details__title {
+  width: auto;
+  font-size: 36px;
+  line-height: 36px;
+}
+}
+
+@media (min-width: $desktop-width) {
+  .contact-details {
+    width: 1300px;
+    height: auto;
+  }
+
+  .contact-details__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .contact-details__item {
+    width: 570px;
+  }
 }

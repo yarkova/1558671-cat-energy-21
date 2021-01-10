@@ -1,6 +1,5 @@
 .personal-data {
-  border: solid;
-  width: 400px;
+  width: 280px;
   height: auto;
   border-bottom: 1px solid #d9d9d9;
 }
@@ -10,4 +9,36 @@
   font-size: 16px;
   line-height: 28px;
   color: $special_dark-grey;
+  list-style: none;
+}
+
+.personal-data__item {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.personal-data__field {
+ width: 100%;
+ border: 1px solid #E7E7E7;
+}
+
+@media (min-width: $tablet-width) {
+  .personal-data {
+    width: 630px;
+    height: auto;
+    border-bottom: none;
+  }
+
+  .personal-data__list {
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: $special_dark-grey;
+    list-style: none;
+  }
+
+  .personal-data__field {
+   width: 100%;
+   border: 1px solid #E7E7E7;
+  }
 }

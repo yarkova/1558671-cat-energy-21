@@ -1,5 +1,4 @@
 .additionally {
-  border: solid;
   width: 400px;
   height: auto;
 }
@@ -13,17 +12,123 @@
 .additionally__list {
   font-family: "Oswald", sans-serif;
   font-size: 16px;
-  line-height: 28px;
+  line-height: 18px;
+  list-style: none;
+}
+
+.additionally__submit {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .additionally__required {
   font-family: "Arial", sans-serif;
   font-size: 14px;
   line-height: 16px;
+  width: 280px;
 }
 
 .additionally__button {
   font-family: "Oswald", "Arial", sans-serif;
   font-size: 16px;
   line-height: 20px;
+  width: 280px;
+  height: 40px;
+  background-color: $basic_green;
+  color: $basic-white;
+}
+
+@media (min-width: $tablet-width) {
+  .additionally {
+    width: 631px;
+    height: auto;
+  }
+
+  .additionally__title {
+    font-size: 36px;
+    line-height: 36px;
+  }
+
+  .additionally__list {
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .additionally__item {
+    width: 50%;
+  }
+
+  .additionally__submit {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .additionally__required {
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: left;
+    width: 282px;
+    height: 16px;
+  }
+
+  .additionally__button {
+    font-size: 20px;
+    line-height: 0px;
+    width: 282px;
+    height: 52px;
+    background-color: $basic_green;
+    color: $basic-white;
+  }
+
+}
+
+@media (min-width: $desktop-width) {
+  .additionally {
+    width: 1300px;
+    height: auto;
+  }
+
+  .additionally__item {
+    width: 25%;
+  }
+
+  .additionally__list {
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .additionally__submit {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 0;
+  }
+
+  .additionally__required {
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    width: 568px;
+    height: 16px;
+  }
+
+  .additionally__button {
+    font-size: 20px;
+    line-height: 0px;
+    width: 568px;
+    height: 52px;
+    background-color: $basic_green;
+    color: $basic-white;
+  }
+
 }

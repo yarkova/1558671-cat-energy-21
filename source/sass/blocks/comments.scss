@@ -1,5 +1,4 @@
 .comments {
-  border: solid;
   width: 400px;
   height: auto;
 }
@@ -15,4 +14,32 @@
   font-size: 16px;
   line-height: 18px;
   color: $special_dark-grey;
+  border: 1px solid #E7E7E7;
+  box-sizing: border-box;
+}
+
+@media (min-width: $tablet-width) {
+  .comments__title {
+    font-size: 36px;
+    line-height: 36px;
+    width: 182px;
+    height: 36px;
+  }
+
+  .comments__textarea {
+    font-size: 20px;
+    line-height: 30px;
+    Width: 631px;
+    Height: 174px;
+  }
+
+}
+
+@media (min-width: $desktop-width) {
+  .comments__textarea {
+    font-size: 20px;
+    line-height: 30px;
+    Width: 1220px;
+    Height: 174px;
+  }
 }

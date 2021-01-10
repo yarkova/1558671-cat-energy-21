@@ -1,30 +1,7 @@
+.product-catalog__list {
+  list-style: none;
+}
 .product-catalog__item {
-  border: solid;
   width: 280px;
   height: auto;
-}
-
-.product-all__title {
-  font-family: "Oswald", sans-serif;
-  font-size: 16px;
-  line-height: 20px;
-  text-align: center;
-}
-
-.product-all__subtitle {
-  font-family: "Arial", sans-serif;
-  font-size: 12px;
-  line-height: 16px;
-  text-align: center;
-}
-
-.product-all__link {
-  border: solid;
-  width: 280px;
-  height: 40px;
-  background-color: $basic_green;
-  font-family: "Oswald", sans-serif;
-  font-size: 16px;
-  line-height: 20px;
-  color: $basic-white;
 }

@@ -1,10 +1,10 @@
 .page-form {
   font-family: "Oswald", "Arial", sans-serif;
+  width: 280px;
 }
 
 .page-form__wrapper {
-  border: solid;
-  width: auto;
+  width: 400px;
   height: auto;
 }
 
@@ -18,4 +18,31 @@
   font-family: "Oswald", sans-serif;
   font-size: 14px;
   line-height: 18px;
+}
+
+@media (min-width: $tablet-width) {
+
+  .page-form {
+    font-family: "Oswald", "Arial", sans-serif;
+    width: 630px;
+  }
+
+  .page-form__wrapper {
+    width: 630px;
+    height: auto;
+  }
+
+  .page-form__title {
+    font-family: "Oswald", sans-serif;
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .page-form__slogan {
+    font-family: "Oswald", sans-serif;
+    width: 323px;
+    height: 60px;
+    font-size: 20px;
+    line-height: 30px;
+  }
 }

@@ -1,0 +1,33 @@
+.program {
+  width: 280px;
+  height: auto;
+}
+
+.program__list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+}
+
+@media (min-width: $tablet-width) {
+  .program__item {
+    width: 440px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .program {
+    width: 1300px;
+    height: auto;
+  }
+  .program__list {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+  }
+
+  .program__item {
+    width: 570px;
+  }
+}

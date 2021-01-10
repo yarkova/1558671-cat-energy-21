@@ -1,8 +1,8 @@
 .program-block {
   background-color: $special_grey-3;
-  border: solid;
   width: 280px;
   height: auto;
+  margin: 0;
 }
 
 .program-block a {
@@ -19,4 +19,11 @@
   font-size: 14px;
   color: $special_dark-grey;
   line-height: 18px;
+}
+
+
+@media (min-width: $desktop-width) {
+  .program-block {
+    width: 570px;
+  }
 }

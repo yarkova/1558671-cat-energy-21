@@ -1,11 +1,26 @@
 .page-footer {
-  border: solid;
+  width: 280px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.page-footer__logo {
+  width: 128px;
+  height: 24px;
+}
+
+.page-footer__copyright {
   width: 280px;
   height: auto;
 }
 
-.page-footer__copyright {
-  border: solid;
-  width: 280px;
-  height: auto;
+@media (min-width: $tablet-width) {
+  .page-footer__social {
+    width: 768px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }

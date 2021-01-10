@@ -1,5 +1,4 @@
 .choose-program {
-  border: solid;
   width: 400px;
   height: auto;
   border-bottom: 1px solid #d9d9d9;
@@ -9,4 +8,30 @@
   font-family: "Oswald", sans-serif;
   font-size: 16px;
   line-height: 18px;
+  list-style: none;
+  color: $special_dark-grey-2;
+}
+
+@media (min-width: $tablet-width) {
+  .choose-program {
+    width: 630px;
+    height: 196px;
+    border-bottom: none;
+  }
+
+  .choose-program__list {
+    font-size: 20px;
+    line-height: 30px;
+    list-style: none;
+    box-sizing: border-box;
+    border: 1px solid #E7E7E7;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .choose-program {
+    width: 570px;
+    height: 196px;
+    border-bottom: none;
+  }
 }
