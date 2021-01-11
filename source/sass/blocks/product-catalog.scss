@@ -4,4 +4,23 @@
 .product-catalog__item {
   width: 280px;
   height: auto;
+  border-top: 1px solid #EBEBEB;
+}
+
+@media (min-width: $tablet-width) {
+  .product-catalog__list {
+    width: 630px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .product-catalog__list {
+    width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
 }
